@@ -1,7 +1,7 @@
 package program;
 import java.util.Scanner;
 
-import entitiy.Employe;
+import entity.Employe;
 
 public class Main {
 
