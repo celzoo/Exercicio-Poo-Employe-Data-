@@ -18,10 +18,11 @@ public class Main {
 		Employe employe = new Employe(name, salary, tax);
 		System.out.println();
 		System.out.println(employe);
-		System.out.print("Wich percentage you wish to increase the salary of the employe " + employe.getName() + ":");
+		System.out.print("Which percentage you wish to increase the salary of the employe " + employe.getName() + ":");
 		percentage = sc.nextDouble();
 		employe.newSalary(percentage);
 		System.out.println(employe);
+		sc.close();
 		
 		
 
